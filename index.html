@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Jojo Hsu | Web Developer</title>
+</head>
+<body>
+<div id="content" class="index__content">
+    <section class="intro intro__distance">
+        <div class="intro__back">
+            <svg class="intro__circle" width="1140" height="1140" viewBox="0 0 1141 1141">
+                <defs>
+                    <linearGradient id="circle__back" x1="138.5" y1="178" x2="812.5" y2="1053.5" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="rgba(255, 255, 255, .7)"></stop>
+                        <stop offset="1" stop-color="rgba(255, 255, 255, .7)"></stop>   
+                    </linearGradient>                   
+                </defs>
+                <circle cx=570.5 cy=570.5 r=570.5 fill="url(#circle__back)"></circle>    
+            </svg>
+            <svg class="intro__down" x="0px" y="0px" width="1920px" height="130px" viewBox="0 0 1920 130" preserveAspectRatio="xMidYMid">
+                <path fill="#fff" d="M0 0 Q180 100 400 90 Q600 80 850 30 Q1050 0 1320 80 T 1920 0 V130 H0 Z">
+            </svg>
+        </div>
+        <div class="intro__nav">
+            <ul class="intro__ul">
+                <li class="intro__li link__item1">
+                    <a href="#about" class="intro__link">About</a>
+                </li>
+                <li class="intro__li link__item2">
+                    
+                    <a href="#portfolio" class="intro__link">Portfolio</a>
+                </li>
+                <li class="intro__li link__item3">
+                    <a href="#footer_contact" class="intro__link">Contact</a> 
+                </li>
+                <span class="direction__down">&#8643;</span>
+            </ul>
+        </div>
+        <div class="intro__container intro__about">
+            <div class="container__left">
+                <div class="item__title">
+                    <span class="title__about">About</span>
+                </div>
+            </div>
+            <div class="container__down">
+                <div class="works">
+                    <div class="display__center">
+                        <div class="work__about">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="work__details">
+                <div class="work__self">
+                    <img src="image/JOJO-497.png" alt="jojo-pic" width="160" height="auto">
+                </div>
+                <span class="self__name">Hi, I am Jojo.</span>
+            </div>    
+        </div>
+        <div class="intro__container intro__portfolio">
+            <div class="container__left">
+                <div class="item__title">
+                    <span class="title__portfolio">Portfolio</span>
+                </div>
+            </div>
+            <div class="container__down container__works">
+                <div class="work-1 intro-1">
+                    <div class="intro__display">
+                        <div class="works"> 
+                            <div class="display__distance">
+                                <div class="work__item display__center">
+                                    <div class="work">
+                                        <div class="work__pic1"></div>
+                                    </div>      
+                                </div>
+                                    <h3 class="work__title">Multi-day Weather Forecast App</h3>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="work-2 intro-2">
+                    <div class="intro__display">
+                        <div class="works"> 
+                            <div class="display__distance">
+                                <div class="work__item display__center">
+                                    <div class="work">
+                                        <div class="work__pic2"></div>
+                                    </div>   
+                                </div>
+                                <h3 class="work__title">Vinyl-Records Website</h3>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <div class="work-3 intro-3">
+                    <div class="intro__display">
+                        <div class="works"> 
+                            <div class="display__distance">
+                                <div class="work__item display__center">
+                                    <div class="work">
+                                        <div class="work__pic3"></div>
+                                    </div>   
+                                </div>
+                                <h3 class="work__title">Card-Matching Game</h3>
+                            </div>
+                        </div>   
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<section id="about">
+    <div class="about__title">
+        <span class="about__text">
+            About
+        </span>
+    </div>
+    <div class="about__circle about__items">
+        <div class="about__projects">
+            <button class="button_about self_btn btn__style btn-active">
+                photo
+            </button>
+            <button class="button_about skill_btn btn__style">
+                skill
+            </button>
+            <input type="button" value="resume" class="button_about resume_btn" onclick="location.href='image/Jojo_Resume.pdf'" class="resume__text">  
+        </div>
+        <div class="about__content">
+            <div class="self self__style self-active">
+                    <img src="image/JOJO-960.png" class="name-photo" alt="jojo-photo" height="276" width="auto">  
+            </div>
+            <div class="skill skill__style">
+                <div class="skill-area">
+                    <ul class="skill_ul">
+                        <li class="skill_li">HTML5</li>
+                        <li class="skill_li">CSS3</li>
+                        <li class="skill_li">Javascript</li>
+                        <li class="skill_li">API</li>
+                        <li class="skill_li">Webpack</li>
+                        <li class="skill_li">Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about__details">
+        <div class="about__photo">
+            <button class="button_about btn__style btn-photo btn-active">
+                photo
+            </button>
+            <div class="self_content self-active">
+                <img src="image/JOJO-960.png" class="name-photo" alt="jojo-photo" height="276" width="auto">  
+            </div>
+        </div>
+        <div class="about__skill">
+            <button class="button_about btn__style btn-skill btn-active">
+                skill
+            </button>
+            <div class="skill_content skill-active">
+                <div class="skill-area">
+                    <ul class="skill_ul">
+                        <li class="skill_li">HTML5</li>
+                        <li class="skill_li">CSS3</li>
+                        <li class="skill_li">Javascript</li>
+                        <li class="skill_li">API</li>
+                        <li class="skill_li">Webpack</li>
+                        <li class="skill_li">Git</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="about__resume">
+            <input type="button" value="resume" class="button_about btn__style" onclick="location.href='image/Jojo_Resume.pdf'" class="resume__text">
+        </div>
+    </div>   
+</section>
+    <section id="portfolio" class="display__center">
+        <div class="portfolio__title">
+            <span class="portfolio__text">
+                Portfolio
+            </span>
+        </div>
+        <div class="portfolio__items">
+            <div class="portfolio__item">
+                <div class="works__items">
+                    <div class="works__item1">
+                    </div>
+                </div>
+                <div class="works__details">
+                    <div class="works__content">
+                        <div class="works__title">
+                            <h2>
+                                Multi-day Weather Forecast App
+                            </h2>
+                            <button class="direction__right">
+                                &#8640;
+                            </button> 
+                        </div>
+                        <div class="works__btn">
+                            <button class="btn btn__more btn__link" onclick="location.href='https://weather-forecast-rho.now.sh/'" target="_blank" type="button">More</button>
+                            <button class="btn btn__git" onclick="" type="button">
+                                <a href="https://github.com/jojohsu1/weather-forecast" target="_new" class="works__link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                            <span class="direction__space">
+                            </span> 
+                        </div>
+                    </div>
+                    <div class="works__text">
+                        <div class="works__intro">
+                            <h3 class="works__li intro__title">簡介</h3>
+                            <table class="intro__text">
+                                <tr>
+                                  <td>1.</td>
+                                  <td>地點查詢功能。</td>
+                                </tr>
+                                <tr>
+                                  <td>2.</td>
+                                  <td>當日即時氣溫、文字簡述，氣候、風速、溼度、降雨機率等圖示。</td>
+                                </tr>
+                                <tr>
+                                  <td>3.</td>
+                                  <td>五日內氣候圖示及最高溫、最低溫天氣預報。</td>
+                                </tr>
+                                <tr>
+                                  <td>4.</td>
+                                  <td>攝氏、華氏溫度切換。</td>
+                                </tr>
+                                <tr>
+                                  <td>5.</td>
+                                  <td>日期為GMT標準時間+8時區(台灣時間)。</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="works__point">
+                            <h3 class="works__li intro__title">製作重點</h3>
+                            <table class="point__text">
+                                <tr>
+                                  <td>1.</td>
+                                  <td>串接API(Google Geocoding API & Dark Sky API)。</td>
+                                </tr>
+                                <tr>
+                                  <td>2.</td>
+                                  <td>Webpack。</td>
+                                </tr>
+                                <tr>
+                                  <td>3.</td>
+                                  <td>Async、Await / CORS。</td>
+                                </tr>
+                                <tr>
+                                  <td>4.</td>
+                                  <td>ES6模組樣式，溫度單位切換。</td>
+                                </tr>
+                                <tr>
+                                  <td>5.</td>
+                                  <td>CSS偽元素、動畫，及SASS練習。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+            <div class="portfolio__item">
+                <div class="works__items">
+                    <div class="works__item2"></div>
+                </div>
+                <div class="works__details">
+                    <div class="works__content">
+                        <div class="works__title">
+                            <h2>
+                                Vinyl-Records Website
+                            </h2>
+                            <button class="direction__right">
+                                &#8640;
+                            </button>  
+                        </div>
+                        <div class="works__btn">
+                            <button class="btn btn__more btn__link" onclick="location.href='https://vinyl-records-website.now.sh/'" type="button">More</button>
+                            <button class="btn btn__git" onclick="" type="button">
+                                <a href="https://github.com/jojohsu1/vinyl-records-website" target="_new" class="works__link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                            <span class="direction__space">
+                            </span> 
+                        </div>
+                    </div>
+                    <div class="works__text">
+                        <div class="works__intro">
+                            <h3 class="works__li intro__title">簡介</h3>
+                            <table class="intro__text">
+                                <tr>
+                                  <td>1.</td>
+                                  <td>簡易購物車功能。</td>
+                                </tr>
+                                <tr>
+                                  <td>2.</td>
+                                  <td>新專輯試聽。</td>
+                                </tr>
+                                <tr>
+                                  <td>3.</td>
+                                  <td>音樂講座。</td>
+                                </tr>
+                                <tr>
+                                  <td>4.</td>
+                                  <td>五種音樂類型網頁。</td>
+                                </tr>
+                                <tr>
+                                  <td>5.</td>
+                                  <td>音樂與生活選物(即將推出)。</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="works__point">
+                            <h3 class="works__li intro__title">製作重點</h3>
+                            <table class="point__text">
+                                <tr>
+                                  <td>1.</td>
+                                  <td>購物車內商品增加、刪減，數量變更後，總金額異動，無後台功能。</td>
+                                </tr>
+                                <tr>
+                                  <td>2.</td>
+                                  <td>音樂播放器(播放、暫停、更換音源、進度條)。</td>
+                                </tr>
+                                <tr>
+                                  <td>3.</td>
+                                  <td>倒數計時器( 日/ 時/ 分/ 秒)。</td>
+                                </tr>
+                                <tr>
+                                  <td>4.</td>
+                                  <td>揭示模組模式(Revealing Module)。</td>
+                                </tr>
+                                <tr>
+                                  <td>5.</td>
+                                  <td>圖片輪播、下拉式選單、頁籤(Tab)互動切換內容。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>         
+            </div>
+            <div class="portfolio__item">
+                <div class="works__items">
+                    <div class="works__item3"></div>
+                </div>
+                <div class="works__details">
+                    <div class="works__content">
+                        <div class="works__title">
+                            <h2>
+                                Card-Matching Game
+                            </h2>
+                            <button class="direction__right">
+                                &#8640;
+                            </button>  
+                        </div>
+                        <div class="works__btn">
+                            <button class="btn btn__more btn__link" onclick="location.href='https://card-matching-game-six.now.sh/'" target="_blank" type="button">More</button>
+                            <button class="btn btn__git" onclick="" type="button">
+                                <a href="https://github.com/jojohsu1/card-matching-game" target="_new" class="works__link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </button>
+                            <span class="direction__space">
+                            </span> 
+                        </div>
+                    </div>
+                    <div class="works__text">
+                        <div class="works__intro">
+                            <h3 class="works__li intro__title">簡介</h3>
+                            <table class="intro__text">
+                                <tr>
+                                  <td>1.</td>
+                                  <td>地點查詢功能。</td>
+                                </tr>
+                                <tr>
+                                  <td>2.</td>
+                                  <td>當日即時氣溫、文字簡述，氣候、風速、溼度、降雨機率等圖示。</td>
+                                </tr>
+                                <tr>
+                                  <td>3.</td>
+                                  <td>五日內氣候圖示及最高溫、最低溫天氣預報。</td>
+                                </tr>
+                                <tr>
+                                  <td>4.</td>
+                                  <td>攝氏、華氏溫度切換。</td>
+                                </tr>
+                                <tr>
+                                  <td>5.</td>
+                                  <td>日期為GMT標準時間+8時區(台灣時間)。</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="works__point">
+                            <h3 class="works__li intro__title">製作重點</h3>
+                            <table class="point__text">
+                                <tr>
+                                  <td>1.</td>
+                                  <td>串接API(Google Geocoding API & Dark Sky API)。</td>
+                                </tr>
+                                <tr>
+                                  <td>2.</td>
+                                  <td>Webpack。</td>
+                                </tr>
+                                <tr>
+                                  <td>3.</td>
+                                  <td>Async、Await / CORS。</td>
+                                </tr>
+                                <tr>
+                                  <td>4.</td>
+                                  <td>CSS偽元素、動畫，及SASS練習。</td>
+                                </tr>
+                                <tr>
+                                  <td>5.</td>
+                                  <td>溫度單位切換程式。</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+        </div>
+    </section>
+    </div>
+    <footer id="footer_contact">
+        <div class="contact__title">
+            <span class="contact__text">
+                Contact
+            </span>
+        </div>
+        <section class="contact">
+            <div class="contact__nav">
+                <ul class="contact__ul">
+                    <li class="contact__li">
+                        <a href="https://github.com/jojohsu1?tab=repositories" target="_new" class="contact__link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="contact__li">
+                        <a href="mailto:jojohsu1@gmail.com" class="contact__link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <h5>jojohsu1@gmail.com</h5>
+                    </li>
+                    <!-- <li class="contact__li">
+                        <a href="../" class="contact__link">
+                            <i class="fas fa-phone"></i>
+                            <span>0987287615</span>
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </section>
+        <div class="footer__notice">
+            <div class="footer__back">
+                <svg class="footer__down" x="0px" y="0px" width="1920px" height="130px" viewBox="0 0 1920 130" preserveAspectRatio="xMidYMid">
+                    <path fill="#F3F3F3" d="M0 0 Q180 100 400 90 Q600 80 850 30 Q1050 0 1320 80 T 1920 0 V130 H0 Z">
+                </svg>
+            </div>
+            <span class="footer__copyright">Copyright&nbsp;&#169;&nbsp;2020&nbsp;Jojo Hsu</span>        
+        </div>
+    </footer>
+<script src="./app.js"></script> 
+</body>
+</html>
