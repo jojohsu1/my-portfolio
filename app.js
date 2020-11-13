@@ -33,7 +33,7 @@
                 selfElem.classList.remove('self-active')
             }
         })
-          
+
         document.addEventListener('click', event=>{
             if(event.target && event.target.matches('.direction__right')){
             let btn = event.target
@@ -48,21 +48,10 @@
             textElem.classList.toggle('text-active')
             btn.innerHTML === '&#8640;' ? btn.innerHTML = '&#8636;': btn.innerHTML = '&#8640;' 
             console.log(btn.innerText)
-            } 
+            }
         })
-            
-        
-        
-    
-        
-
     })()
-    
 
-
-    
-
-    
 
 
 

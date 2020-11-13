@@ -133,7 +133,7 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 400px;
-    animation: portfolio-appear 75s infinite;  
+    animation: portfolio-appear 75s infinite;
 }
 .item__title{
     font-family: var(--font-name);
@@ -204,7 +204,7 @@ body{
     border-radius: 50%;
     background-color: transparent;
     border: 2px solid rgb(238, 238, 238);
-}    
+}
 .work__about{
     width: 200px;
     height: 200px;
@@ -288,7 +288,7 @@ body{
         transform: rotate(-45deg);
     }
     25%{
-        border-radius: 50% 220px 50% 230px;  
+        border-radius: 50% 220px 50% 230px;
     }
     40%{
         transform: translateY(-10px);
@@ -508,7 +508,7 @@ body{
     }
   }
   /* .intro__portfolio{
-    animation: show 65s infinite; 
+    animation: show 65s infinite;
   } */
   .container__works{
     position: relative;
@@ -632,9 +632,9 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border:  1px solid rgba(34, 34, 34, .9); 
+    border:  1px solid rgba(34, 34, 34, .9);
     outline: none;
-    background-color: #fff;  
+    background-color: #fff;
 }
 .button_about:hover{
     color: #fff;
@@ -974,7 +974,7 @@ body{
 }
 .btn__link:hover{
     cursor: pointer;
-    color: #fff;  
+    color: #fff;
     background-color: rgba(34, 34, 34, .9);
     border: 2px solid rgba(34, 34, 34, .9);
 }
@@ -1105,13 +1105,13 @@ body{
         justify-content: center;
     }
     .portfolio__item{
-        flex-direction: column; 
+        flex-direction: column;
         justify-content: center;
-        padding: 5rem 0;  
+        padding: 5rem 0;
     }
     .works__items {
         margin-right: 0;
-        justify-content: center; 
+        justify-content: center;
         margin: 0 auto;
     }
     .works__items:hover {
@@ -1235,7 +1235,7 @@ body{
     .skill-area{
         width: 250px;
         height: 250px;
-        background-color: #fff; 
+        background-color: #fff;
     }
     .skill_content{
         position: absolute;
@@ -1303,8 +1303,5 @@ body{
         height: 40px;
         background-color: #F3F3F3;
     }
-}
-@media only screen and (max-width:500px) {
-    
 }
 
